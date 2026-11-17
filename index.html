@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhaka Polytechnic Institute — Student ID Verification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            font-family: 'Inter', 'Hind Siliguri', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 20px 15px;
+            color: #1f2937;
+        }
+
+        .verification-card {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 480px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+        }
+
+        .card-header {
+            background-color: #27348b;
+            color: #ffffff;
+            padding: 20px 24px;
+        }
+
+        .card-header h1 {
+            font-size: 13.5px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            line-height: 1.45;
+            text-transform: uppercase;
+            margin-bottom: 4px;
+        }
+
+        .card-header p {
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            color: #e0e7ff;
+        }
+
+        .card-body {
+            padding: 26px 24px 30px 24px;
+            display: flex;
+            gap: 22px;
+            align-items: flex-start;
+        }
+
+        .photo-box {
+            width: 105px;
+            height: 132px;
+            background-color: #e8ecf1;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8c96a5;
+            font-size: 13px;
+            flex-shrink: 0;
+            border: 1px solid #dfe4ea;
+        }
+
+        .info-section {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .student-name-en {
+            font-size: 20px;
+            font-weight: 700;
+            color: #111827;
+            line-height: 1.25;
+            margin-bottom: 2px;
+        }
+
+        .student-name-bn {
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 15.5px;
+            font-weight: 500;
+            color: #4b5563;
+            margin-bottom: 18px;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 16px;
+            row-gap: 16px;
+        }
+
+        .detail-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .detail-label {
+            font-size: 12px;
+            color: #9ca3af;
+            margin-bottom: 3px;
+            font-weight: 400;
+        }
+
+        .detail-value {
+            font-size: 14px;
+            color: #1f2937;
+            font-weight: 500;
+            line-height: 1.4;
+            word-wrap: break-word;
+        }
+
+        .bn-text {
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 14.5px;
+        }
+
+        .card-footer {
+            border-top: 1px solid #f1f5f9;
+            padding: 14px 24px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 12.5px;
+            color: #6b7280;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .status-dot {
+            width: 4px;
+            height: 4px;
+            background-color: #9ca3af;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="verification-card">
+        <div class="card-header">
+            <h1>DHAKA POLYTECHNIC INSTITUTE — STUDENT ID VERIFICATION</h1>
+            <p>ঢাকা সরকারি পলিটেকনিক ইনস্টিটিউট — শিক্ষার্থী পরিচয়পত্র যাচাই</p>
+        </div>
+
+        <div class="card-body">
+            <div class="photo-box">
+                <span>No photo</span>
+            </div>
+
+            <div class="info-section">
+                <div class="student-name-en">MD Rafiul haque chowdhury</div>
+                <div class="student-name-bn">মো. রাফিউল হক চৌধুরী</div>
+
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <span class="detail-label">Department</span>
+                        <span class="detail-value">Power (Power)</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Roll</span>
+                        <span class="detail-value">335437</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Registration</span>
+                        <span class="detail-value">1502476385</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Session</span>
+                        <span class="detail-value">2025-26</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Shift</span>
+                        <span class="detail-value">1st Shift</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Blood Group</span>
+                        <span class="detail-value">AB-</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Father</span>
+                        <span class="detail-value">MD. AMINUL HAQUE CHOWDHURY MITHU</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Mother</span>
+                        <span class="detail-value">NIGAR SULTANA</span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">ID Mark</span>
+                        <span class="detail-value bn-text">               </span>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="detail-label">Address</span>
+                        <span class="detail-value">Chowarirtack, Faidabad Madrasha, Dakshinkhan, Dhaka-1230.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <span>Card v1</span>
+            <span class="status-dot"></span>
+            <span>ready</span>
+        </div>
+    </div>
+
+    <script>
+        // Static verification view initialized
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("Card v1 • ready");
+        });
+    </script>
+
+</body>
+</html>
